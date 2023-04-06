@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass" : "node-sass src/sass/main.scss src/css/style.css -w"
+    "compile:sass": "node-sass src/sass/main.scss src/css/style.css -w"
   },
   "author": "Luis Pires",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.37.0",
     "install": "^0.13.0",
     "node-sass": "^8.0.0"
   }
