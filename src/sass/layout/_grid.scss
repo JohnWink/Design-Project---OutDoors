@@ -1,6 +1,5 @@
 .row {
     max-width: $grid-width;
-    background-color: #eee;
     margin: 0 auto; //Centering sides
 
 
@@ -10,7 +9,6 @@
     @include clearfix; 
 
     [class^="col-"] { //   Selector. It means 'class that starts with cool-'
-        background-color: orangered;
         float:left;
         
     &:not(:last-child){
